@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Lexend:wght@300&family=Pacifico&family=Righteous&display=swap");
+/* -----------fonts---------- 
+font-family: 'Gothic A1', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Righteous', cursive;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  font-family: "Lexend", sans-serif;
+  background: url(/images/background1.jpg);
+
+}
+/* -----heading------ */
+.jumbotron {
+  margin-bottom: 0 !important;
+  background-color:transparent!important;
+}
+.jumbotron .container h1 {
+  font-family: "Pacifico", cursive !important;
+  text-align: center;
+  background-color:transparent!important;
+  text-transform: uppercase;
+  background: #060A40;
+  background: -webkit-repeating-radial-gradient(ellipse farthest-corner at bottom center, #060A40 0%, #9C08FF 89%);
+  background: -moz-repeating-radial-gradient(ellipse farthest-corner at bottom center, #060A40 0%, #9C08FF 89%);
+  background: repeating-radial-gradient(ellipse farthest-corner at bottom center, #060A40 0%, #9C08FF 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* -----1st section---- */
+.section1 {
+  min-height: 80vh;
+  /* background-color: aquamarine; */
+  /* border: 1px solid; */
+  
+}
+.section1 .container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+/* -----main heading------- */
+.section1 .container .heading h2 {
+  text-align: center;
+  font-weight: 800;
+}
+/* -----section1 of 1st section----- */
+.section1-1 {
+  min-height: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 40px 0;
+  /* border: 1px solid; */
+  
+}
+/* -----image section------ */
+.section1-1 .left {
+  height: 550px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: bisque; */
+
+  /* border: 1px solid blue; */
+}
+@media(max-width:430px){
+    .section1-1 .left img{
+        height: 200px;
+        width: 200px;
+    }
+}
+/* .section1-1 .left img{
+    height: ;
+} */
+/* -----form section----- */
+.section1-1 .right {
+  min-height: 550px;
+  width: 500px;
+  /* background-color: bisque; */
+
+  /* border: 1px solid; */
+  padding: 10px;
+}
+/* ------form------- */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  /* margin: 10px; */
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 30px;
+  /* display: block; */
+}
+
+input[type="submit"]:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/* -----section2 of 1st section----- */
+
+.section1-2 {
+  min-height: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 40px 0;
+  /* border: 1px solid; */
+  cursor: pointer;
+}
+.section1-2 .left {
+  height: 550px;
+  width: 500px;
+  padding: 20px;
+  margin-bottom: 30px;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #314755;
+  border-radius: 15px;
+  box-shadow: 0px 8px 12px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 8px 12px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 12px 3px rgba(0,0,0,0.75);
+
+}
+.section1-2 .left .location{
+    min-height: 50px;
+    width: 100%;
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: space-between;
+}
+.section1-2 .left .location .logo{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid; */
+    border-radius: 70px;
+    position: relative;
+    background-color: aliceblue;
+}
+.section1-2 .left  .logo i{
+    font-size: 20px;
+    position:absolute;
+    top: 30%;
+    left: 35%;
+    color: #314755;
+}
+.section1-2 .left .location .detail{
+   height: 100%;
+   width: 80%;
+   display: flex;
+   align-items: center;
+   /* border: 1px solid blue; */
+}
+.section1-2 .left .detail h6{
+    font-size: 18px;
+    color: aliceblue;
+    align-items: center;
+}
+.section1-2 .left .emailaddress{
+    min-height: 50px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.section1-2 .left .emailaddress .logo{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid; */
+    border-radius: 70px;
+    position: relative;
+    background-color: aliceblue;
+}
+.section1-2 .left .emailaddress .detail{
+   height: 100%;
+   width: 80%;
+   display: flex;
+   align-items: center;
+   /* border: 1px solid blue; */
+}
+.section1-2 .left .address{
+    min-height: 50px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.section1-2 .left .address .logo{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid; */
+    border-radius: 70px;
+    position: relative;
+    background-color: aliceblue;
+}
+.section1-2 .left .address .detail{
+   height: 100%;
+   width: 80%;
+   display: flex;
+   align-items: center;
+   /* border: 1px solid blue; */
+}
+.section1-2 .left .phone{
+    min-height: 50px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.section1-2 .left .phone .logo{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid; */
+    border-radius: 70px;
+    position: relative;
+    background-color: aliceblue;
+}
+.section1-2 .left .phone .detail{
+   height: 100%;
+   width: 80%;
+   display: flex;
+   align-items: center;
+   /* border: 1px solid blue; */
+}
+.section1-2 .right {
+  height: 550px;
+  width: 500px;
+  /* border: 1px solid blue; */
+}
+.section1-2 .left .detail h6:hover{
+  text-decoration: underline;
+}

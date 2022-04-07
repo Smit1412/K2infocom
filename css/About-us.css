@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Lexend:wght@300&family=Merienda:wght@400;700&family=Pacifico&family=Righteous&display=swap");
+/* 
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Righteous', cursive;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+/* heading */
+.jumbotron {
+  background-color: transparent !important;
+}
+.jumbotron .container h1 {
+  font-family: "Merienda", cursive !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+.k2-division1 {
+
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(37, 145, 251, 0.98) 0.1%,
+    rgba(0, 7, 128, 1) 99.8%
+  );
+}
+.k2-division1 .container {
+  min-height: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 30px; */
+  /* background-color: aqua; */
+    padding-top:50px ;
+}
+.div1-left {
+  height: 600px;
+  width: 450px;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+}
+.div1-left h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: whitesmoke;
+}
+.div1-left p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.div1-left button {
+  height: 50px;
+  width: 200px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: aliceblue;
+  border: 2px solid white;
+  background-color:rgba(37, 145, 251, 0.98);
+  
+}
+.divi1-right {
+  height: 600px;
+  width: 450px;
+  /* border: 1px solid; */
+}
+@media(max-width:560px){
+    img{
+        height:400px;
+        width: 400px;
+    }
+}
+@media(max-width:400px){
+    img{
+        height:300px;
+        width: 300px;
+    }
+}
+@media(max-width:405px){
+    .divi1-right{
+        margin-top: 200px;
+        }
+}
+
+/* =====second division======== */
+.division-2{
+  min-height: 10px;
+  border: 10px solid;
+}
+.division-2 .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.division-2 .container .div-2-left{
+  height: 600px;
+  width: 550px;
+  border: 1px solid;
+}
+.division-2 .container .div-2-right{
+  height: 600px;
+  width: 550px;
+  border: 1px solid;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+  }
+.div-2-right img{
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  
+}
